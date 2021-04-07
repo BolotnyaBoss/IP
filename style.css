@@ -1,0 +1,104 @@
+body{
+    background: #d1f6f6;
+}
+a{
+    text-decoration: none;
+    color: #151560;
+}
+.header{
+    text-align: center;
+    background: #3e7e7e;
+    color: ghostwhite;
+    font-family:Consolas;
+}
+.label{
+    text-align: center;
+    color: #151560;
+    font-family:Consolas;
+}
+table{
+    border-collapse:collapse;
+    overflow: auto;
+    background-color:#eeeed2
+}
+.table td{
+    position: relative;
+    width: 4em;
+    height: 4em;
+}
+
+.darkcell{
+    background-color:#769656
+}
+.image{
+    width: 4em;
+    height: 4em;
+    z-index: -1;
+}
+.image1{
+    width: 4em;
+    height: 4em;
+    visibility: hidden;
+}
+.number{
+    position: absolute;
+    top: 0;
+    color: darkblue;
+    font-family:Consolas;
+}
+.letter{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: darkblue;
+    font-family:Consolas;
+
+
+}
+form {
+    text-align: center;
+    line-height: 30px;
+    height: 25%;
+    overflow: auto;
+}
+.toppings label, .cheesy label {
+    margin-right: 25px;
+}
+*{
+    font-family:Consolas;
+}
+button{
+    background: #44b9bf;
+}
+button:hover,input.button:hover
+{
+    cursor: pointer;
+    background: #3e7e7e;
+}
+input.button{
+    background: #44b9bf;
+}
+input{
+    position: relative;
+    width: max-content;
+}
+.canvas{
+    height: available;
+    width: 60%;
+    margin-left: 20%;
+}
+
+div.timmer{
+    width: 10%;
+    height: initial;
+    margin-left: 45%;
+    background-color: #3e7e7e;
+    color: #d8f1ee;
+    font-size:20px;
+    text-align:center;
+}
+#foot{
+    text-align: center;
+    color: darkblue;
+    background-color: #3e7e7e;
+}
